@@ -11,4 +11,4 @@ Developed in Unity using C# and Blender.
 Main Developer: [CesarAC-Dev](https://github.com/CesarAC-Dev)  
 Others: Daniel Pinar Espejo, Diego García Serrano  
 
-![image](/Assets/UI/portada-sin-notones.png)
+![image](/Assets/UI/portada-sin-botones.png)
