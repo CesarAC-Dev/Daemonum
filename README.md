@@ -8,7 +8,7 @@ magic powers and sword elemental infusion.
 Developed in Unity using C# and Blender.
 
 # Collaborators
-Main Developer: [CesarAC-Dev](https://github.com/CesarAC-Dev)
-Others: Daniel Pinar Espejo, Diego García Serrano
+Main Developer: [CesarAC-Dev](https://github.com/CesarAC-Dev)  
+Others: Daniel Pinar Espejo, Diego García Serrano  
 
-![image](Assets\UI\portada-sin-notones.png)
+![image](/Assets/UI/portada-sin-notones.png)
