@@ -5,7 +5,7 @@ using UnityEngine;
 public class Movimiento : MonoBehaviour
 {
 
-    public Rigidbody rigidbody;
+    public Rigidbody rb;
     public float moveSpeed;
     [SerializeField] private InteractionPromptUI _interactionPromptUI;
     public bool canMove = true;
@@ -14,7 +14,7 @@ public class Movimiento : MonoBehaviour
     void Start()
     {
 
-        rigidbody = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -26,7 +26,7 @@ public class Movimiento : MonoBehaviour
             moveInput.y = Input.GetAxisRaw("Vertical");
             moveInput.Normalize();
             // Debug.Log(moveInput.x + " , " + moveInput.y);
-            rigidbody.velocity = new Vector3(moveInput.x * moveSpeed, rigidbody.velocity.y, moveInput.y * moveSpeed);
+            rb.velocity = new Vector3(moveInput.x * moveSpeed, rb.velocity.y, moveInput.y * moveSpeed);
         }
         if (Input.GetKeyDown(KeyCode.Escape))
         {
